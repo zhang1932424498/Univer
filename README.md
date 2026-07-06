@@ -29,7 +29,9 @@ The integrated information is calculated by KL divergence:
 
 ```text
 Phi = D_KL(P_whole || P_cut) = 1 bit
+```
 
+This means that cutting the system destroys the relation between the two dancers.
 
 ## Result
 
@@ -37,3 +39,8 @@ Run:
 
 ```bash
 python iit_dancers.py
+```
+
+Output:
+
+![IIT dancers plot](./iit_dancers_plot.png)
