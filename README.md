@@ -29,3 +29,11 @@ The integrated information is calculated by KL divergence:
 
 ```text
 Phi = D_KL(P_whole || P_cut) = 1 bit
+
+
+## Result
+
+Run:
+
+```bash
+python iit_dancers.py
